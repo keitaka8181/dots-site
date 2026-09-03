@@ -9,7 +9,7 @@ const CONFIG = {
   baseColor: { r: 200, g: 200, b: 210 },
   activeColor: { r: 120, g: 160, b: 255 },
   bgColor: '#06060a',
-  text: 'Shion',
+  text: 'dots',
   fontSize: 180,
 }
 

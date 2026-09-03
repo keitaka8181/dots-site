@@ -1,12 +1,12 @@
-# Shion - Interactive Dot Typography
+# dots - Interactive Dot Typography
 
 カーソルに反応するインタラクティブなドットタイポグラフィサイト。
 
-![Preview](https://via.placeholder.com/800x400/06060a/78a0ff?text=Shion)
+![Preview](https://via.placeholder.com/800x400/06060a/78a0ff?text=dots)
 
 ## 特徴
 
-- 「Shion」の文字を無数のドットで構成
+- 「dots」の文字を無数のドットで構成
 - カーソルが近づくとドットが散らばる
 - カーソルが離れると文字が再構成される
 - 読み込み時のアニメーション演出
@@ -20,7 +20,7 @@
 
 1. [GitHub](https://github.com) にログイン
 2. 右上の「+」→「New repository」をクリック
-3. Repository name: `shion-dots`（任意の名前）
+3. Repository name: `dots-dots`（任意の名前）
 4. 「Create repository」をクリック
 
 ### 2. プロジェクトをアップロード
@@ -35,7 +35,7 @@
 
 ```bash
 # このフォルダに移動
-cd shion-dots
+cd dots-dots
 
 # Git初期化
 git init
@@ -44,7 +44,7 @@ git commit -m "Initial commit"
 
 # GitHubに接続（URLは自分のリポジトリに変更）
 git branch -M main
-git remote add origin https://github.com/あなたのユーザー名/shion-dots.git
+git remote add origin https://github.com/あなたのユーザー名/dots-dots.git
 git push -u origin main
 ```
 
@@ -57,7 +57,7 @@ git push -u origin main
 5. 設定はそのままで「Deploy」をクリック
 6. 1〜2分でデプロイ完了！
 
-デプロイ後、`https://shion-dots.vercel.app` のようなURLが発行されます。
+デプロイ後、`https://dots-dots.vercel.app` のようなURLが発行されます。
 
 ---
 
@@ -82,7 +82,7 @@ npm run build
 
 | 項目 | 説明 | デフォルト |
 |------|------|-----------|
-| `text` | 表示するテキスト | `'Shion'` |
+| `text` | 表示するテキスト | `'dots'` |
 | `fontSize` | 文字サイズ | `180` |
 | `dotSpacing` | ドット間隔（小さいほど密） | `4` |
 | `dotRadius` | ドットの大きさ | `1.8` |
